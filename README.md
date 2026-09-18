@@ -216,6 +216,12 @@ The scheduler was tested using both workload files and all three scheduling poli
 
 ### Workload 1
 
+| Policy | Average Turnaround Time | Average Response Time |
+|---|---:|---:|
+| FCFS | 17.00 | 11.00 |
+| SJF | 11.00 | 5.00 |
+| RR (q = 3) | 15.50 | 4.00 |
+
 #### FCFS
 
 ![Workload 1 FCFS](screenshots/workload1_fcfs.png)
@@ -229,6 +235,12 @@ The scheduler was tested using both workload files and all three scheduling poli
 ![Workload 1 Round Robin](screenshots/workload1_rr.png)
 
 ### Workload 2
+
+| Policy | Average Turnaround Time | Average Response Time |
+|---|---:|---:|
+| FCFS | 11.00 | 6.50 |
+| SJF | 10.50 | 6.00 |
+| RR (q = 3) | 10.25 | 2.50 |
 
 #### FCFS
 
